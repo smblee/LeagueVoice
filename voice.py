@@ -3,7 +3,7 @@ modeldir = 'models/'
 datadir = get_data_path()
 includedir = 'include/'
 SOUND_DIR = 'sounds/'
-CONFIG_FILE = 'config.txt'
+CONFIG_FILE = 'config.conf'
 
 import sys, os
 sys.path.append(os.path.join(includedir))
@@ -17,7 +17,7 @@ def setup():
     config = Decoder.default_config()
     config.set_string('-hmm', os.path.join(modeldir, 'en-us'))
     config.set_string('-dict', os.path.join(modeldir, 'cmudict-en-us.dict'))
-    config.set_string('-kws', 'numbers.txt')
+    config.set_string('-kws', 'numbers.conf')
     config.set_string('-logfn', 'nul')
     #config.set_string('-keyphrase', 'r')
     #config.set_float('-kws_threshold', 1e-10)
@@ -26,7 +26,7 @@ def setup():
         conf = open(CONFIG_FILE, 'r')
         conf_speak = True if conf.readline().split("=")[1].replace(" ","") == "true" else False  # speak
     except IOError:
-        print "'config.txt' does not exist. Using default setting"
+        print "'{}' does not exist. Using default setting".format(CONFIG_FILE)
     
 
 def start_recognition():
