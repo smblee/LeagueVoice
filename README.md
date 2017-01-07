@@ -30,7 +30,7 @@ Control League of Legends with your voice.
 2. Run LeagueVoice.
 3. Say some commands.
 4. Enjoy!
-** Command list `[command:key, command:key]`: `[one:q, two:w, three:e, four:r, five:d, ignite:f]`
+5. Command list `[command:key]`: `[one:q, two:w, three:e, four:r, five:d, ignite:f]`
 
 
 ## Want to contribute?
