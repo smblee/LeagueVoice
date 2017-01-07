@@ -1,0 +1,7 @@
+*.exe
+*.zip
+build/*
+dist/*
+models/*
+*.pyc
+*.spec
