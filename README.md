@@ -25,6 +25,14 @@ Control League of Legends with your voice.
 1. You can build a standalone executable file using the following command `pyinstaller.exe --onefile LeagueVoice.py`
 2. The file can be found in `\dist\LeagueVoice.exe`
 
+## Usage
+1. Run the game.
+2. Run LeagueVoice.
+3. Say some commands.
+4. Enjoy!
+** Command list `[command:key, command:key]`: `[one:q, two:w, three:e, four:r, five:d, ignite:f]`
+
+
 ## Want to contribute?
 1. Fork it.
 2. Create your feature branch: `git checkout -b my-new-feature`
