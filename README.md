@@ -23,7 +23,7 @@ Control League of Legends with your voice.
 
 ## Build
 1. You can build a standalone executable file using the following command `pyinstaller.exe --onefile LeagueVoice.py`
-2. The file can be found in `/dist/LeagueVoice.exe`
+2. The file can be found in `\dist\LeagueVoice.exe`
 
 ## Want to contribute?
 1. Fork it.
@@ -31,3 +31,11 @@ Control League of Legends with your voice.
 3. Commit your changes: `git commit -am 'Add some feature'`
 4. Push to the branch: `git push origin my-new-feature`
 5. Submit a pull request.
+
+## Credits
+1. Pocketsphinx developers
+2. Stackoverflow
+3. Me
+
+## License
+MIT aka do whatever u want.
